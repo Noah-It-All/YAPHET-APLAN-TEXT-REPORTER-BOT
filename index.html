@@ -1,0 +1,31 @@
+    <head>
+
+    <!-- Stylesheets/Other External things -->
+    <link href="/styles/stylesheet.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Real Website Begins Here -->
+
+    </head>
+
+    <body>
+
+    <h1 id='Title'>A-Plan Reporting System</h1>
+    <div class="infoInput">
+        <form action="/send" method="post">
+            <span class="aplan-date">Date Of A-Plan:</span>
+            <input type="date" id="aplan-date" name="aplan-date">
+            <br>
+            <span class="aplan-reason">Reason for A-Plan:</span>
+            <input type="text" id="aplan-reason" name="aplan-reason">
+            <br>
+            <span class="teacher-name">Teacher Giving A-Plan:</span>
+            <input type="text" id="teacher-name" name="teacher-name">
+            <br>
+            <span class="office-refferal">Is this an office refferal/Does it entail an office refferal?:</span>
+            <input type="checkbox" id="office-refferal" name="office">            
+            <br>
+            <input type="submit" id="submit" name="submit">
+        </form>
+    </div>
+
+    </body>

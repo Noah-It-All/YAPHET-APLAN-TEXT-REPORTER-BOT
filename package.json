@@ -1,0 +1,19 @@
+{
+  "name": "yaphet-aplan-reporter",
+  "version": "1.0.0",
+  "description": "Reports Yaphet's APLANS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Noah Henok",
+  "license": "ISC",
+  "engines": {
+    "node": "14.x"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookies-js": "^1.2.3",
+    "express": "^4.17.1"
+  }
+}

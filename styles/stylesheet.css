@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&display=swap');
+#Title{
+    text-align: center; font-family: 'Roboto Slab', serif; font-size: 3vmax;
+}
+.infoInput{
+    text-align: center; font-size: 4rem; font-family: 'Josefin Sans', sans-serif;
+}
+#office-refferal {transform: scale(4);}
+#aplan-reason {transform: scale(1);}
