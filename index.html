@@ -3,6 +3,7 @@
     <!-- Stylesheets/Other External things -->
     <link href="/styles/stylesheet.css" rel="stylesheet" type="text/css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <!-- Real Website Begins Here -->
 
 </head>
@@ -12,7 +13,7 @@
     <h1 id='Title'>A-Plan Reporting System</h1>
     <div class="infoInput">
         <!-- Fill in form -->
-        <form action="/send" method="post">
+        <form action="/send" method="post" onsubmit="alert('The Report Has Been Sent, Thank You!')">
             <span class="aplan-date">Date Of A-Plan:</span>
             <input type="date" id="aplan-date" name="aplan-date">
             <br>
@@ -28,5 +29,4 @@
             <input type="submit" id="submit" name="submit">
         </form>
     </div>
-
 </body>
