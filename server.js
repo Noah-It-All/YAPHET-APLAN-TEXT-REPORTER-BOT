@@ -21,12 +21,19 @@ app.post('/send',function(req,res){
   var teacher = values[2]
   var office = values[3]
 
+  var senttooffice = '';
+  if (office != "on") {
+    senttooffice = "n't"
+  };
+
+  var body = `Today is ${date} and Yaphet has recieved an aplan for ${reason} from ${teacher} however he was${senttooffice} sent to the office. \n\n\n\n DO NOT CLICK THE UNSUBSCRIBE LINK`;
+
   Email.send({
       SecureToken : "598166e6-ebac-4b02-a91c-6852511028fe",
-      To : "noahunderscore69@googlemail.com",
+      To : "7813547937@tmomail.net",
       From : "noahunderscore69@gmail.com",
-      Subject : "This is the subject",
-      Body : "And this is the body"
+      Subject : `Yaphet Has Recieved an aplan or office refferal`,
+      Body : body
   }).then(
       message => console.log(message)
   );
